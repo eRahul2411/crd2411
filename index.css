@@ -1,0 +1,71 @@
+.header{
+    
+    width: 100%;
+    height: 200px;
+}
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width:100%;
+    float: left;
+    height: 69px;
+    background-image:linear-gradient(to right ,rgb(169, 178, 247),#acacf3,#808df0,rgb(97, 114, 241));
+}
+.logo-txt{
+    font-size: 60px;
+    color: rgb(6, 14, 78);
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-style: italic;
+}
+.navigation-bar{
+   padding-top: 8px;
+   margin-left: 100px;
+}
+.logo-subtxt{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    opacity: 0.8;
+}
+.tab-container {
+    display: flex;
+    flex-direction: row;
+    width: 504px;
+    height: 40px;
+    
+    align-items: center;
+    justify-content: space-around;
+    background: local;
+    font-family: Gentona;
+    padding: 0 25px;
+}
+
+.tab-item {
+    font-size: 24px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.tab-item:hover {
+    border-top: 10px;
+    border-bottom: 4px solid rgb(255, 0, 0);
+    padding-bottom: 10px;
+    opacity: 1;
+    font-weight: 500;
+}
+.linked{
+    text-decoration: none;
+}
+
