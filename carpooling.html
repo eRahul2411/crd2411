@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpool::SHARE-RIDE</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
-    <title>Rent-a-vehicle</title>
+    <script src="index.js"></script> 
 </head>
 <body>
-    <header class="rentheader">
+    <header class="carpoolheader">
         <div class="logo">
             <table>
                 <tr>
@@ -40,29 +40,59 @@
                     </div>
                     <div class="nav-links">
                         <a href="index.html" class="navitem" >Home</a>
-                        <a href="#Joinride" class="navitem">Renting</a>
-                        <a href="publishride.html"  class="navitem">Listing</a>
-                        <a href="#carpool" class="navitem">How</a>
-
+                        <a href="#Joinride" class="navitem">JoinRide</a>
+                        <a href="publishride.html"  class="navitem">PublishRide</a>
+                        <a href="#carpool" class="navitem">WhyCarpool</a>
+                        <a href="userlogin.html"class="navitem">Login</a>
+                        <a href="userreg.html" target="_blank" class="navitem">Signup</a>
                     </div>
                 </div>
+        
             </div>
+        
         </div>
+
+
     </header>
-    <img src="rentt.jpg" alt="" class="renthomepic" id="home"/>
+    <img src="carpooll.jpg" alt="" class="carpoolhomepic" id="home"/>
     <p class="hometext"> 
-        With Share Ride, you can now rent out your own car to others,
-        or find the perfect car to rent for your next adventure. Our platform connects car owners with renters,
-         making it easy and convenient for both parties. As a car owner, 
-         you can earn extra money by renting out your car when you’re not using it. As a renter, 
-         you can find the perfect car for your needs at an affordable price. Our platform is safe and secure, 
-         and we take care of all the details so you can focus on enjoying the ride!
+        With Share Ride, carpooling has never been easier. 
+                    Our platform allows you to either publish a ride and offer empty seats in your car to others,
+                     or join a ride and travel with like-minded professionals. By sharing the ride, you can save money, 
+                     reduce your carbon footprint, and make new connections.
+                     Join our community of carpoolers today and start sharing the ride!
     </p>
+    <div class="Joinride" id="Joinride">
+        <p class="joinhead">Search For Rides And Join Now !!!</p><br/>
+        <div class="ridejoin">
+            
+            <form action="">
+                <input type="text" size="25" name="current" placeholder="Leaving From..." class="join" required/>
+                <br>
+                <input type="text" size="25" name="destination" placeholder="Going To..." class="join" required/>
+                <br>
+                <input type="date" name="day" id="" class="join" placeholder="Today" required>
+                <br>
+               
+                <select id="ppl" class="join">
+                    <option value="" disabled selected hidden>No.of People
+                    </option>
+                    <option value="1" >1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select><br>
+                  <button class="joinbutton">Search</button>
+            </form>
+        </div>
+        <div></div>
+
+    </div>
 
 
 
 
-    <footer class="rentfooter">
+    <footer class="carpoolfooter">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">

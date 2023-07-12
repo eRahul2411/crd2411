@@ -6,29 +6,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home-Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script src="index.js"></script> 
+ 
 
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="logo">
-            <img src="logo.png" alt="" height="40px" width="100px">
-            <label class="logo-txt">SHARE-RIDE</label>
-            <label class="logo-subtxt">ride,rent,drive</label>
+            <table>
+                <tr>
+                    <td>
+                    <img src="newlogo.png" alt="" class="logoimg"/>
+                    </td>
+                    <td>
+                        <label class="logo-txt">SHARE-RIDE</label>
+                    </td>
+                    <td>
+                        <label class="logo-subtxt">carpooling,driver-hiring,renting</label>
+                    </td>
+                    
+                </tr>
+            </table>
+            <div class="container">
+                <div class="nav">
+                    <input type="checkbox" id="nav-check">
+                    <div class="nav-header">
+              
+                    </div>
+                    <div class="nav-btn">
+                      <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </label>
+                    </div>
+                    <div class="nav-links">
+                        <a href="index.html" class="navitem" >Home</a>
+                        <a href="carpooling.html" class="navitem">Carpooling</a>
+                        <a href="rent-car.html"  class="navitem">Rental</a>
+                        <a href="#driver" class="navitem">DriverHire</a>
+                        <a href="userlogin.html"class="navitem">Login</a>
+                        <a href="userreg.html" target="_blank" class="navitem">Signup</a>
+                    </div>
+                </div>
+        
+            </div>
+        
         </div>
-        <div class="navigation-bar">
-            <div class="tab-container event-elem" id="tab-container" event-name="desktop_booking_widget_daily">
-                <a href="index.html" class="linked"><div class="tab-item active" data-tab="Home">Home</div></a>
-                <a href="rent-car.html" class="linked"> <div class="tab-item" data-tab="Rental">Rental</div></a>
-                <a href="hire-driver.html" class="linked"> <div class="tab-item" data-tab="Hire">Driver-Hire</div></a>
+
+
+    </header>
+    
+        <img src="homepage.jpg" alt="" class="homepic" id="home"/>
+        <div class="container-fluid">
+            <h2 class="welcome">Welcome to Share Ride...........</h2>
+                <p class="hometext"> 
+                    Your one-stop solution for all your commuting needs. Our platform offers carpooling, car rental,
+                         and driver for hire services to help you save money, reduce your carbon footprint,
+                          and connect with like-minded professionals. With our easy-to-use interface, you can quickly create rides,
+                           find matches, and enjoy a comfortable and affordable commute. Join us today and start sharing the ride!
+                </p><br>
+
+        </div>
+        <div class="services container-fluid" id="carpooling">
+            <div>
+                <h1 class="hometitl " style="color: #56d79f">Carpooling</h1>
+            </div>
+            <div class="left-section">
+                <img src="carpooll.jpg" width=550px height=368px alt="Carpooling illustration">
+            </div>
+            <div class="right-section">
+                <p class="ctext">With Share Ride, carpooling has never been easier. 
+                    Our platform allows you to either publish a ride and offer empty seats in your car to others,
+                     or join a ride and travel with like-minded professionals. By sharing the ride, you can save money, 
+                     reduce your carbon footprint, and make new connections.
+                     Join our community of carpoolers today and start sharing the ride!
+                     <a href="carpooling.html" style="color: rgb(4, 114, 145);text-decoration: none;"><h3>READ MORE>>></h3></a>
+                </p>
+      
             </div>
 
         </div>
+        <div class="services container-fluid" id="rental">
+            <div>
+                <h1 style="color:#c463bd"class="hometitl"> Car Rental</h1>
+            </div>
+            <div class="left-section">
+                <img src="rentt.jpg" alt="car rental image illustration" width=550px height=380px>
+            </div>
+            <div class="right-section">
+                <p class="ctext">With Share Ride, you can now rent out your own car to others,
+                     or find the perfect car to rent for your next adventure. Our platform connects car owners with renters,
+                      making it easy and convenient for both parties. As a car owner, 
+                      you can earn extra money by renting out your car when you’re not using it. As a renter, 
+                      you can find the perfect car for your needs at an affordable price. Our platform is safe and secure, 
+                      and we take care of all the details so you can focus on enjoying the ride!
+                      <a href="rent-car.html" style="color: rgb(4, 114, 145);text-decoration: none;"><h3>READ MORE>>></h3></a>
+                </p>
+            </div>
+
+        </div>
+        <div class="services container-fluid" id="driver">
+            <div>
+                <h1 style="color:#fa745c" class="hometitl ">Driver-Hire</h1>
+            </div>
+            <div class="left-section">
+                <img src="driverr.jpg" alt="Driver Hiring illustration" width=550px height=368px>
+            </div>
+            <div class="right-section">
+                <p class="ctext">Sit back, relax, and let Share Ride take the wheel.
+                     Our platform offers a driver for hire service to help you travel in comfort and style.
+                      Whether you need a driver for a special event or a long-distance trip, we’ve got you covered.
+                       Our drivers are professional, experienced,
+                     and dedicated to providing you with the best possible service. 
+                     Hire a driver with Share Ride today and enjoy the ride!
+                    <a href="" style="color: rgb(4, 114, 145);text-decoration: none;"><h3>READ MORE>>></h3></a>
+                </p>
+            </div>
+
+        </div>
+
+        <footer class="webfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h3>About</h3>
+                        <p class="text-justify">Share Ride is a comprehensive transportation platform
+                             that provides a range of services including carpooling,
+                              car rental, and driver-for-hire options. Our mission is to facilitate convenient and efficient travel for our users. Join our community 
+                              and experience the benefits of shared transportation today.
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+
+                        <ul class="footer-links">
+                            <h3>Quick Links</h3>
+                          <li><a href="mailto:shareride@gmail.com">Contact Us</a></li>
+                          <li><a href="mailto:admin.shareride@gmail.com">Report an Issue</a></li>
+                          <li><a href="">Home</a></li>
+                          <li><a href="adminlogin.html">Login as Administrator</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+           
+            <div class="logofooter">
+                <table>
+                    <tr>
+                        <td>
+                        <img src="newlogo.png" alt="" class="logoimg"/>
+                        </td>
+                        <td>
+                            <label class="logo-txt">SHARE-RIDE</label>
+                        </td>
+                        <td>
+                            <label class="logo-subtxt">carpooling,driver-hiring,renting</label>
+                        </td>
+                        
+                    </tr>
+                </table> <p class="text-justify">Copyright &copy; All Rights Reserved</p>
+            </div>
+    </footer>
+    
+
+
+      
+     
+
+    
+        
+     
+
+        
        
 
     </div>
-<a href="https://www.google.com/maps/@10.5442763,76.1383668,7z?authuser=0&entry=ttu">Click here</a> 
-
+</div>
 </body>
 </html>
